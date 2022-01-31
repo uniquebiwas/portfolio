@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conatct Me</title>
+    <link rel="shortcut icon" type="image/ico" href="image/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <p id="date">
+      <script>
+      document.getElementById("date").innerHTML = Date();
+      </script>
+      </p>
+      <section>
+      <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="AboutMe.html"> About Me</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Connect With Me</a></li> <br>
+      </ul>
+  </section>
+
+</head>
+
+
+
+<body>
+    <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name <br></label>
+            </div>
+            <div class="col-75">
+              <input  type="text" id="fname" name="firstname" placeholder="Your name.."required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+            </div>
+          </div>
+          
+          <div class="row" >
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject"name="subject" placeholder="Write something.." style="height:200px"></textarea> 
+            </div>
+          </div>
+
+          <div class="row">  
+          <a href="contact.html"> <input type="button" value="Submit" > </a>
+          </div>
+        </form>
+      </div>
+</body>
+
+<footer>
+
+    <div id="footerhome">
+        <ul>
+            <div class="socialsites">
+                <a href="https://www.facebook.com/unique.biwas.7/" target="facebook"><img src="image/fb.png" width="32px;"></a>
+                <a href="https://www.instagram.com/unique_biwas/" target="insta"><img src="image/insta.png" width="32px;"></a>
+                <a href="https://twitter.com/BiwasUnique" target="twit"><img src="image/twit.png" width="32px;"></a>
+            </div>
+        </ul>
+        
+        <div class="copyright">Copyright &copy;
+            
+            <script type="text/JavaScript">
+		document.write(new Date().getFullYear());</script> Unique Biwas
+
+        </div>
+
+
+</footer>
+
+</html>

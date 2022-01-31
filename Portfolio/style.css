@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	background: url(image/ab.jpg); 
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    height: 900px;
+
+}
+
+ ul{
+    list-style-type: none; 
+	
+}
+#text1 h1{
+	color: blue;
+	text-align: center;
+	font-weight: 400;
+	font-family: cursive;
+	font-style: oblique;
+	text-decoration-style: double;
+}
+#text2 h2{
+	padding-left: 20px;
+	font-style: italic;
+	font-family: monospace;
+	
+
+}
+button{
+	background-size: cover;
+	background-image: url(image/call.jpg);
+	height: 150px;
+	width: 150px;
+	background-color: rgba(230, 75, 183, 0.815);
+	border-radius: 50%;
+	mix-blend-mode: difference;
+	cursor:cell;
+	
+}
+#call a{
+	padding:20px;
+
+}
+#call h2{
+	
+	padding:80px;
+	font-family: fantasy;
+	
+}
+li:hover {
+	background-color: rgb(78, 207, 186);
+  }
+li{
+    float: left;
+    position: center;
+    padding: 50px;
+    border: 7px solid rgb(183, 209, 192);
+	width: 15%;
+    background-color: rgb(241, 245, 245);
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    page-break-after: always;
+	font-weight: 700;
+	font-size: larger;
+	font-family: monospace;
+	
+
+}
+
+
+p{
+	text-align: center;
+}
+#footerhome
+{ 
+	bottom: -650px;
+	width:100%;  
+	height:15vh;
+	text-align: center;
+	background: rgb(235, 240, 236);
+	color: rgb(31, 25, 25);
+	opacity:5;
+	position:absolute;
+}
+
+
+
+.socialsites a{
+	opacity: 0.8;
+	
+}
+
+.socialsites a:empty{
+	opacity: 1;
+	
+}
+
+.socialsites{
+ position: static;
+	right:0;
+	top:35%;
+	display:initial;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	
+	
+	
+	
+}
+

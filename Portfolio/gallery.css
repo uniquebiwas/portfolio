@@ -1,0 +1,141 @@
+ul {
+    list-style-type: none;   
+}
+
+#menu li{
+    float: left;
+    position: center;
+    padding: 50px;
+    border: 7px solid rgb(106, 143, 118);
+    background:darkgrey;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    page-break-after: always;
+    width: 15%;
+    font: caption;
+    font-family: monospace;
+    font-weight: 700;
+
+}
+#menu li:hover {
+	background-color: rgb(78, 207, 186);
+  
+  }
+
+ p{
+  color: aliceblue;
+  text-align: center;
+}
+
+body {
+  font-family: Raleway;
+  background-color: #1e2c25;
+}
+
+
+
+
+
+#footerhome
+{ 
+    bottom: -650px;
+    width:100%;  
+    height:15vh;
+    text-align: center;
+    background: rgb(67, 122, 78);
+    color: rgb(31, 25, 25);
+    opacity:5;
+    position:absolute;
+}
+.socialsites{
+    position: static;
+       right:0;
+       top:35%;
+       display:initial;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       justify-content: flex-start;
+       
+       
+   } 
+
+   .heading {
+    text-align: center;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    font-family: cursive;
+    
+}
+
+.gallery-image {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+  height: 250px;
+  width: 350px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box:hover {
+  cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  opacity: 0.5;
+}

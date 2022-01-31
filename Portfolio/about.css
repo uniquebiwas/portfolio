@@ -1,0 +1,125 @@
+#intro p{
+    color: rgb(19, 20, 20);
+    background: rgb(189, 180, 180);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    font-style: italic;
+    font-weight: 500;
+    font-variant: normal;
+    text-align: start;
+}
+ ul {
+    list-style-type: none;  
+}
+p{
+    text-align: center;
+}
+
+#menu li{
+    float: left;
+    position: center;
+    padding: 50px;
+    border: 7px solid rgb(106, 143, 118);
+    background:darkgrey;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    page-break-after: always;
+    width: 15%;
+    font: caption;
+    font-family: monospace;
+    font-weight: 700;
+
+}
+#menu li:hover {
+	background-color: rgb(78, 207, 186);
+  }
+h1{
+    color: black;
+    background-color: rgb(163, 145, 145);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+}
+body{
+    background-color: rgb(211, 230, 146);
+}
+#skills h4{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-display: initial;
+    font-size: xx-large;
+    color:tan;
+    background-color: rgb(24, 7, 56);
+    text-align: center;
+}
+#skills p{
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: inherit;
+    font: caption;
+    text-align: justify;
+   color: azure;
+   font-style: italic;
+   padding-bottom: 3px;
+}
+#text4 h4{
+    padding-inline-end: 20px;
+    text-align: justify;
+    font-family: cursive;
+    font-size: x-large;
+    padding-block-start: 10px;
+    color: rgb(23, 23, 53);
+    background-color: azure;
+}
+li{
+  padding-bottom: 10px;  
+  background-color: aliceblue;
+  text-decoration:underline;
+  font-style:italic;
+  font-size: 120%;
+}
+table {
+    background-color: darkgrey;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: fantasy;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-family: cursive;
+  }
+  
+  tr:nth-child(1) {
+    background-color: #8cddd2;
+  }
+#footerhome
+{ 
+
+	width:100%;  
+	height:15vh;
+	text-align: center;
+	background: rgb(235, 240, 236);
+	color: rgb(100, 145, 108);
+	opacity:5;
+	position:absolute;
+}
+.socialsites{
+    position: static;
+       right:0;
+       top:35%;
+       display:initial;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       justify-content: flex-start;
+       
+       
+   }
+
+   
